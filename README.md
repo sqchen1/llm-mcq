@@ -6,7 +6,7 @@ The python script reads questions from an Excel file, calls 3 models in parallel
 ## How It Works
 
 1. **Input:**  
-   The file `test_qa.xlsx` contains 5 sample llm-generated multiple-choice questions (columns:  `task_id`, `Question` and `FormatRequirement`).
+   The file `test_qa.xlsx` contains 5 llm-generated multiple-choice sample questions (columns:  `task_id`, `Question` and `FormatRequirement`).
 
 2. **Processing:**  
    The python script `evaluation.py` uses LangChain to call three models in parallel, they are:
