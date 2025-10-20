@@ -1,12 +1,12 @@
 # LLM Multiple-Choice Questions
 
-This project uses **OpenAI APIs** through **LangChain** package to evaluate the performance of large language models (LLMs) on multiple choice business analysis questions. 
+This project uses **OpenAI APIs** through **LangChain** package to evaluate the performance of large language models (LLMs) on multiple-choice business analysis questions. 
 The python script reads questions from an Excel file, calls 3 models in parallel, and records their answers in a structured Excel file as the output.
 
 ## How It Works
 
 1. **Input:**  
-   The file `test_qa.xlsx` contains five sample llm generated multiple choice questions (columns:  `task_id`, `Question` and `FormatRequirement`).
+   The file `test_qa.xlsx` contains 5 sample llm-generated multiple-choice questions (columns:  `task_id`, `Question` and `FormatRequirement`).
 
 2. **Processing:**  
    The python script `evaluation.py` uses LangChain to call three models in parallel, they are:
