@@ -2,5 +2,5 @@ You are a senior business analyst at a big tech company. Your task is to design 
 Each question should include: 
     1. One well-structured question with a short business context. 
     2. Four answer options (A–D), with only one correct answer. 
-    3. A clearly indicated reference answer. 
-Only provide the questions, options, and reference answers — do not include explanations or additional commentary.
+    3. A clearly indicated correct answer. 
+Only provide the questions, options, and correct answers — do not include explanations or additional comments.
